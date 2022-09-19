@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/***general***/
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.body{
+    margin: 0;
+    background-color: #FFFFFF;
+
+}
+
+/***HEADER***/
+
+/***BARRE DE NAVIGATION***/
+
+nav{
+    height: 60px;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.nav-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 76%;
+    height: 100%;
+    
+}
+
+.icon-nav{
+    font-size: 50px;
+    color: #3FD2BB;
+}
+
+.nav-ul{
+    display: flex;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    color: #C0C0C0;
+    font-weight: bold;
+}
+
+.nav-item{
+    list-style: none;
+    margin: 0 10px 0 10px;
+    
+    
+}
+
+a{
+    color: #00C3A5;
+    text-decoration: none;
+}
+
+#aboutus{
+    color: #00C3A5;
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo-nav p{
+    margin-left: 5px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    
+
+}
+
+#doc{
+    color: #00C3A5;
+}
+
+#gr{
+    color: #C0C0C0;
+}
+
+/***Main***/
+/***LOGO***/
+
+
+.logo{
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.my-icon{
+    margin-top: 80px;
+    font-size: 50px;
+    color: #3FD2BB;
+    
+}
+
+
+.slogan{
+    
+    width: 100vw;
+    height: 250px;
+    display: inline-block;
+    text-align: center;
+ 
+
+}
+
+.slogan h1{
+    color: #00B39B;
+    font-size: 40px;  
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    margin-top: 25px;
+}
+
+/***introduction***/
+
+
+.intro{
+    
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    gap: 30px;
+    width: 76vw;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+.intro p{
+     
+    font-family: 'Roboto', sans-serif;
+    color: #5c5b5b;
+    font-weight: lighter;
+    font-size: 17.4px;
+    line-height: 40px;
+    margin: 0;
+    
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 76vw;
+    font-family: 'Work Sans', sans-serif;
+    margin : auto;
+    color: white;
+    margin-top: 100px;
+
+    
+}
+
+.patients{
+    border-radius: 20px;
+    background-color: #1AD1B9;
+}
+
+.doctors{
+    border-radius: 20px;
+    background-color: #5190E2;
+}
+
+.clinics{
+    border-radius: 20px;
+    background-color: #25303D;
+}
+
+.grid-icon{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.grid h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+
+.grid p{
+    font-size: 24px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#pay{
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+option{
+    color: black;
+    font-size: 15px;
+    
+}
+
+.colection1{
+    
+    display: grid;
+    justify-content: space-between;
+    place-items: left;
+    grid-template-columns: 30% 70%;
+    width: 76vw;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.colec1{
+    color: #1AD1B9;
+    font-size: 30px;
+    
+
+}
+
+.colec2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+
+.ul-colec-item{
+    list-style-type: none;
+    font-family:'Roboto', sans-serif;
+    color: #C0C0C0;
+}
+
+.ul-colectop{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.ul-colectbottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul-colec-itembig{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    color: #C0C0C0;
+    font-size: 30px;
+}
+
+
+.colection2{
+    
+    background-color: #D8F6F6;
+    margin: auto;
+    width: 100vw;
+    
+}
+
+.colection2-inner{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    width: 76vw;
+    margin: auto;
+
+}
+
+.logo-coloc2{
+    font-size: 400px;
+    color: #00B39B;
+    margin-top: 100px;
+    
+}
+
+
+
+
+
+.cloc2-left h2{
+    color: #00B39B;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    margin-top: 45px;
+    
+}
+
+.colection2 p{
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    color: #5c5b5b;
+    margin-bottom: 20px;
+}
+
+.cloc2-left p{
+    margin-top: 25px;
+}
+
+.colec2-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    text-align: center;
+    
+}
+
+.colec2-right h3{
+    color: #00BFA5;
+    font-size: 25px;
+    font-weight: lighter;
+    
+}
+
+.colec2-right-item{
+    height: 270px;
+    width: 250px;
+    background-color: white; 
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.icone-coloc2{
+    color: #00BFA5;
+    font-size: 40px;
+}
+
+.change{
+    width: 76vw;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.change h2{
+    color: #00BFA5;
+        font-size: 35px;
+        font-weight: lighter;
+
+}
+
+.change p{
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    color: #5c5b5b;
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+
+.images{
+    width: 76vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20px;
+}
+
+.images img{
+    width: 365px;
+    border-radius: 10px;
+}
+
+.legend-img{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Cairo', sans-serif;
+    font-size: 25px;
+    color: #5c5b5b;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.open{
+    background-color: #126de4;
+    padding: 10px 18px 10px 18px;
+    font-size: 14px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+.conclusion{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    width: 82vw;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.conclusion h2 {
+    
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+
+.conclusion h3{
+    background-color: #126de4;
+    margin-top: 30px;
+        padding: 10px 18px 10px 18px;
+        font-size: 14px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        width: 20%;
+        text-align: center;
+    
+}
+
+.basdepage{
+    font-family: 'Roboto', sans-serif;
+        color: #C0C0C0;
+        font-size: 15px;
+        
+        text-align: center;
+        width: 82vw;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
